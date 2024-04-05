@@ -25,27 +25,26 @@ What does the player learn? How does your encounter and broader level design fac
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
 
 
-I wanted to make the intensity curve rise steadily as the player traverses between sections 2 and 3. 
+I wanted to make the intensity curve rise steadily as the player traverses between sections 2 and 3. I used risk as a way to moderate tension in a section. Harder sections that health pickups.
 
-I used risk as a way to moderate tension in a section. F
+Some areas of the map have breakpoints, which contain nothing harmful and allows the player room to process their next action or rest after an intense section of the map.
 
 ### 1.3. Challenge
 What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
 
-The main challenge comes from the precise manuvers needed to traverse certain sections, combined with carefu
+The main challenge comes from the precise manuvers needed to traverse certain sections, combined with patience and planning from the player on how they should approach a section. The level of difficulty starts out forgiving, but gradually increases as the player reaches Section 2. Difficult challenges are also accessible early on, but are optional and reward the player with health pickups.
+
 
 ### 1.4. Exploration
 How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
 
-I employed heavy use of pass-through platforms to facilitate backtracking, and intentionally made the task of backtracking much easier. This is to lighten the load on players with exploring areas that they may have missed, and not make it tedious and mundane.
+Taking inspiration from metroidvania games, I implemented a non-linear exploration system that held the player's hand at various points. Sections of the level allowed the player to split routes and pace themselves, while hand-holding sections have the routes combine to help the player progress in the right direction without getting lost.
 
-Some areas showed "sneak peeks" of another area with the camera. While this does defeat the purpose of being hidden from the player, it plays on their curiousity to check out the shown area and encourages them to explore. 
+I employed heavy use of pass-through platforms to facilitate backtracking. Backtracking was intentionally designed to be much easier. This encourages players to explore areas that they may have missed, and not make it tedious and mundane. Some areas showed "sneak peeks" of another area with the camera. While this does defeat the purpose of being hidden from the player, it plays on their curiousity to check out the shown area and encourages them to explore. 
 
 Some subsections of a level were given distinct stand-out qualities to make the memorable. For instance, one level uses a mini-gauntlet that requires the player to clear 2 mini sections to open up a room that leads to a key. Later sections of the level use the game's sunset background to make the challenging parts something valuable to remember.
 
-While 
-
-I added some sections using health pickups to encourage the player to try them out. I was inspired by other game's method for testing skill expression. This method , and rewarding them their success.
+I added some optional sections using health pickups to encourage the player to try them out. Health pickups on the main path were carefully placed to lead the player to the right direction to minimize the chances of getting lost in exploration. 
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -54,7 +53,6 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-// In this section, I tried to make the first section linear.
 
 ### 2.1. Acid
 
@@ -103,6 +101,8 @@ No additional words are necessary for this section (any words should only be wit
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
 
 Originally, Section 1 was made to be much shorter, but I decided to add more platforming and teaching moments to ensure the player had the ropes with controls. This was essential before they were given the non-linear sections of the level.  
+
+I also added more entities within section 1 to reinforce the player's learning around their danger.
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
