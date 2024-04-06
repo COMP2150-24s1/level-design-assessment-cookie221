@@ -21,18 +21,20 @@ Outline and justify how your level design facilitates the core player experience
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 
+The player learns basic movement, enemies and mechanics during Section 1. Each encounter in Section 1 is designed to give the player a grasp on fundamental mechanics. Once the player reaches Section 2, they are free to apply and experiment what they have learnt at their own pace. Checkpoints are frequently given out to incentivize mistake-making, and health pickups reward mastery over the game.
+
 ### 1.2. Drama
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
 
 
-I wanted to make the intensity curve rise steadily as the player traverses between sections 2 and 3. I used risk as a way to moderate tension in a section. Harder sections that health pickups.
+I wanted to make the intensity curve relax during Section 1, and increase steadily as the player traverses between sections 2 and 3. Section 1 should give the player some level of danger, but keep them at their own pace to learn the game's basic mechanics. Section's 2 and 3 play on risk and uncertainty to create tension on various subsections. For instance, 
 
-Some areas of the map have breakpoints, which contain nothing harmful and allows the player room to process their next action or rest after an intense section of the map.
+Some areas are safe zones (denoted by checkpoints). These contain nothing harmful and allows the player room to process their next action or rest after an intense section of the map before repeating the tension process.
 
 ### 1.3. Challenge
 What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
 
-The main challenge comes from the precise manuvers needed to traverse certain sections, combined with patience and planning from the player on how they should approach a section. The level of difficulty starts out forgiving, but gradually increases as the player reaches Section 2. Difficult challenges are also accessible early on, but are optional and reward the player with health pickups.
+The main challenge comes from the precise manuvers needed to traverse certain sections, combined with patience and planning from the player on how they should approach a section. The level of difficulty starts out forgiving, but gradually increases as the player reaches Section 2. Difficult challenges are also accessible early on which reward the player with health pickups. Health pickups are limited outside of the optional sections. This helps the flow curve balance between moments of cautious platforming, and relief from sitting in safe areas/getting health pickups.
 
 
 ### 1.4. Exploration
@@ -55,19 +57,20 @@ You should restructure the headings below to match the order they appear in your
 
 
 ### 2.1. Acid
-
+Acid is introduced before Section 2. 
 ### 2.2. Checkpoints
 Checkpoints are given generously, at least one within each subsection of the map so exploration is not exhausting for the player. They are placed before an obstacle, sometimes during one to add challenge to some sections of the level..
 
 ### 2.3. Chompers
 Chompers are introduced as a peon enemy initially. Later, they serve as an incentive for the player to platform patiently, or with caution as they are placed on smaller platforms or serve as obstacles during exploration. 
 ### 2.4. Health Pickups
-Health pickups are introduced via alternate path in Section 1. I designed them to be items you can find as reward for exploration/completing an optional challenging section. They were also introduced to reward the player for completing a section of the level. Health packs used this way reward the player's demonstration of skill, or serve as moments of relief in the dramatic tension.
+Health pickups are introduced via alternate paths in Section 1. I designed them to be items you can find as reward for exploration/completing an optional challenging section. They were also introduced to reward the player for completing a section of the level. Health packs used this way reward the player's exploration and curiousity, or serve as moments of relief after completing a difficult section.
 
 ### 2.5. Keys
 
+
 ### 2.6. Moving Platforms
-Moving platforms were n
+Moving platforms were not introduced in Section 1. I decided to leave them for Section 2 as I wanted the player to grasp movement basics before approaching them.
 
 ### 2.7. Passthrough Platforms
 Passthrough platforms are introduced during Section 1. It was essential for the player to grasp their mechanics as most platforming in the level was based on these platforms. I taught them both to descend and ascend a platform, then reinforced it by allowing them to use the platforms before Section 2.
@@ -76,9 +79,10 @@ Passthrough platforms are introduced during Section 1. It was essential for the 
 Spikes are introduced as a constraint on the player's movement in platforming. These teach the player on movement in Section 1, and are later used to test their skill via precision platforming.
 
 ### 2.9. Spitters
+Spitters are introduced in Section 1, which serve to pressure the player to move or process their actions before taking on a platformer section.
 
 ### 2.10. Weapon Pickup (Gun)
-The gun is significantly stronger than the Staff, so I introduced it later mid-way through Section 2. The gun serves as the player's primary option for dealing with Spitters, out of reach enemies or for clearing sections that would otherwise be normally impossible to clear with just the staff.  The player should have some grasp of the movement mechanics, so they can apply what they know to maxmize the gun.
+The gun is significantly stronger than the Staff, so I introduced it later in Section 2. The gun serves as the player's primary option for dealing with Spitters, out of reach enemies or for shooting switches.  The player should have some grasp of the movement mechanics, so they can apply what they know to maxmize the gun's range.
 
 
 ### 2.11. Weapon Pickup (Staff)
@@ -103,6 +107,10 @@ Reflect on how iterative design helped to improve your level. Additional prototy
 Originally, Section 1 was made to be much shorter, but I decided to add more platforming and teaching moments to ensure the player had the ropes with controls. This was essential before they were given the non-linear sections of the level.  
 
 I also added more entities within section 1 to reinforce the player's learning around their danger.
+
+Section 2 and 3 contains some humps that force the player to converge at a location while proceeding through the map. These were used as aids to help the player navigate through each section without getting lost.
+
+Background tiles were initially used as filler, but I decided to use them to help guide the player's movements. This also made the game more visually appealing and keeps areas unique enough to avoid cases of the player getting lost during map traversal. Moving platforms had the most potential for improvement through iteration, as there are many use cases that were not explored in my level. For instance, moving platforms that could be manually shifted around or moving platforms that fall into acid if stood on for too long. These could have been utilized during the later sections of the level.
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
