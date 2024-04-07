@@ -57,7 +57,8 @@ You should restructure the headings below to match the order they appear in your
 
 
 ### 2.1. Acid
-Acid is introduced before Section 2. 
+Acid is introduced before Section 2. They serve as a restart of a subsection should the player fail, and thus the player must plan carefully around them.
+
 ### 2.2. Checkpoints
 Checkpoints are given generously, at least one within each subsection of the map so exploration is not exhausting for the player. They are placed before an obstacle, sometimes during one to add challenge to some sections of the level..
 
